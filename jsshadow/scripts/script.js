@@ -1,0 +1,1 @@
+$(function(){    //Datatable	$('.dataTable').dataTable({		"sPaginationType": "full_numbers",		                "bJQueryUI": true        });});

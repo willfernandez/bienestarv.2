@@ -1,0 +1,355 @@
+/* 
+    Document   : mystyle
+    Created on : 20/01/2013, 05:09:37 PM
+    Author     : willy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@font-face {
+    font-family: 'will';
+    src: url('MonospaceTypewriter-webfont.eot');
+    src: url('MonospaceTypewriter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('MonospaceTypewriter-webfont.woff') format('woff'),
+         url('MonospaceTypewriter-webfont.ttf') format('truetype'),
+         url('MonospaceTypewriter-webfont.svg#MonospaceTypewriterRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#cuerpo{
+  background-image: url("../images/paper_1.png");
+  background-size: auto;
+  background-repeat: repeat repeat;
+}
+.container{
+   /* background-image: url("../images/fondo.jpg");*/
+   border: 1px solid rgb(199, 199, 199);
+}
+#header{
+  background: url("../images/fondoc1.jpg") repeat 10% center;
+  background-size: auto,auto ;
+  height: 100%;
+	margin: 0 0 0 0;
+	padding: 0.5em 0;
+	width: 100%;
+
+}
+.inner{
+    background: url(../images/logo2.png) no-repeat;
+
+}
+#header h1
+{
+    margin: 0px 0px;
+    font-family: "arial";
+    font-size: 3.2em;
+    text-shadow: rgba(255,255,255,0.9) 5px 5px 10px;
+
+}
+#header h2
+{
+  color : #EEEEEE;
+}
+#header span
+{   
+        color: #EEE;
+	margin: 0;
+	font-weight: normal;
+	text-shadow: rgba(255,255,255,255.75) 2px 2px 5px;
+}
+#header h2
+{
+  margin: 0;
+  font-weight: normal;
+  text-shadow: rgba(0,0,0,0.75) 2px 2px 5px;
+}
+a{
+   -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+}
+header{
+    background-color: green;
+    background-image: url("../images/fondoc1.jpg");
+    background: url("../images/logo2.png") no-repeat 10% center,
+				url("../images/fondoc.jpg");
+    background-size: 74px, auto ;
+	margin: 0 0 0 0;
+	padding: 0.5em 0;
+  text-align: center;
+	width: 100%;
+}
+
+header h1
+{
+    margin: 0px 0px;
+    font-family: "will";
+    font-size: 3.2em;
+    text-shadow: rgba(255,255,255,0.8) 5px 5px 10px;
+}
+header h2
+{
+	margin: 0;
+	font-weight: normal;
+	text-shadow: rgba(0,0,0,0.75) 2px 2px 5px;
+}
+
+footer{
+     background-image: url("../images/fondoc.jpg");
+    background: url("../images/") no-repeat 98% center,
+				url("../images/fondoc.jpg");
+    background-size: 74px, auto ;
+    margin: 0 0 0 0;
+    padding: 0.5em 0;
+    width: 100%;
+}
+#footer{
+     background-image: url("../images/fondoc1.jpg");
+    background: url("../images/") no-repeat 98% center,
+        url("../images/fondoc1.jpg");
+    background-size: 74px, auto ;
+    color : #EEEEEE;
+    margin: 0 0 0 0;
+    padding: 0.5em 0;
+    text-shadow: rgba(0,0,0,0.9) 5px 5px 10px;
+    width: 100%;
+}
+#sequence-theme{
+   font-family: 'Open Sans';
+   background:    url("../images/bg-fondo.jpg");
+   background-size: 500px, auto ;
+   
+}
+
+.login{
+ background:    url("../images/paper_1.png");
+ background-size: auto auto;
+ border-radius: 0.5em;
+ box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+ height: 100%;
+ margin: 6% auto auto;
+ padding: 1em;
+ width: 60%;
+	transition: all 0.5s ease;
+}
+
+.login label {
+  display: inline-block;
+}
+#calidad
+{
+	background: white;
+	color: #222;
+	text-align: left;
+	width: 40%;
+}
+#calidad, #inicio
+{
+	display: inline-block;
+	vertical-align: top;
+}
+#inicio{
+        background: rgba(255,255,255,255.6);
+	border-radius: 0.5em;
+	box-shadow: rgba(29, 122, 40, 0.9) 5px 5px 10px;
+	margin: 0 2% 2em 1em;
+	padding: 1em;
+	text-align: justify;
+	text-shadow: rgba(0,0,0,0.2) 2px 2px 5px;
+	transition: all 0.5s ease;
+	width: 40%;
+}
+
+.blue{
+    color: #174D5C;
+    font-weight: bold;
+}
+#right{
+    font-size: 12px;
+    text-align: right;
+    font-weight: bold;
+    
+}
+
+#ex3 {
+ width: 730px;
+height: 100px; 
+line-height: 0px;
+color: transparent; 
+font-size: 50px; 
+font-weight: 300; 
+-webkit-transition: all 0.5s ease; 
+-moz-transition: all 0.5s ease; 
+-o-transition: all 0.5s ease; 
+    position:relative;
+    progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#000', endColorstr='#000');
+   -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#000', endColorstr='#000');
+}
+
+
+ #ex3:hover
+  { 
+  	line-height: 30px;
+  	color: #0088CC;
+        position:relative;
+  }
+  #ex3 img
+  { 
+  	float: left;
+  	margin: 0 15px;
+        border-radius: 45% / 20%; /* Borde redondeado */
+        box-shadow: 0px 0px 15px #000; /* Sombra */
+        padding:0;
+        -moz-transition: all 1s;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+   }
+
+   
+
+#ex3 .textoo 
+{
+    background: rgba(0,0,0,0.5);
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+    left:14px;
+    position:absolute;
+    width:70%;
+
+}
+
+
+#ex3 img:hover {
+border-radius: 0; /* Con esto eliminamos dsdel borde redondeado */
+-moz-transition: all 1s;
+-webkit-transition: all 1s;
+-o-transition: all 1s;
+cursor:pointer;
+}
+
+.datosC{
+    text-align: justify
+}
+
+#escuela
+{
+	width: 40%;
+}
+
+.titulo{
+  background: rgb(235, 235, 235);
+  border: 1px solid rgb(199, 199, 199);
+  overflow: hidden;
+  padding: 5px;
+}
+.titulo .ficha{
+  color : rgb(93, 125, 156);  
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+  margin: 0;
+  text-rendering: optimizelegibility;
+  }
+
+.titulo span a{
+  padding: 7px 10px 7px 10px;
+  color: #F00;
+}
+.alumno-tit span a:hover{
+  background: #fff;
+}
+.page-header-blue{
+padding-bottom: 10px;
+margin: 10px 0;
+border-bottom: 1px solid rgb(54, 158, 116);
+}
+.page-header-blue h5{
+color: rgb(42, 133, 231);
+}
+.menu2{
+  width: 80%;
+  padding: 6px;
+  border: 1px solid #CCC;
+  background-color: #f4f4f4;
+  overflow: hidden;
+  border-radius: 4px;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 75px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
+.menu2 h4 {
+  border: 1px solid #CCC;
+  background-color: #FFF;
+  color: #00B700;
+  padding: 0px 5px;
+  font-size: 14px;
+  margin-bottom: 4px;
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.menu2 .ayudalateral{
+  width: 80%;
+  padding: 6px;
+  border: 1px solid #CCC;
+  background-color: #f4f4f4;
+  overflow: hidden;
+  border-radius: 4px;
+  margin: auto;
+  margin-bottom: 15px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
+.ayudalateral{
+  border: 1px solid #CCC;
+  background-color: #FFF;
+  color: #f89406;;
+
+  margin: auto;
+  padding: 10px 10px;
+  width: 80%;
+}
+.row-titulo{
+   margin-top: 20px;
+}
+.menu2 ul li .diseabled {
+color: #CACACA;
+cursor: default;
+text-decoration: none;
+}
+.menu2 ul li a {
+font-weight: bold;
+display: block;
+width: 178px;
+margin-left: 1px;
+padding: 4px 0px;
+}
+.menu2 ul li .enabled {
+background-color: #FCFCFC;
+color: #06C;
+cursor: pointer;
+}
+
+.alumno-tit{
+text-align: right;
+color: #06C;
+font-weight: bold;
+float: right;
+margin-left: 10px;
+text-transform: uppercase;
+}
+.modal-header h3{
+color: rgb(55, 134, 179);
+}
+
+@media (max-width: 767px) {
+  .row-titulo{
+    margin-top: 10px;
+  }
+ }

@@ -1,0 +1,67 @@
+    div.vanadium-invalid {
+      border-color: #F05353;
+    border-style: solid !important;
+    }
+
+    div.vanadium-valid {
+
+      border-color: #0F0 !important;
+      border-style: solid !important;
+    }
+
+    .vanadium-message-value {
+      font-style: italic;
+      text-decoration: underline;
+    }
+
+   
+  input.vanadium-invalid,#reg_box form input.vanadium-invalid, #reg_box form textarea.vanadium-invalid,.poll_online .form-data  input.vanadium-invalid, .poll_online .form-data textarea.vanadium-invalid {
+    background: #feeef0 !important;
+    border-color:#F05353;
+    border-style: solid !important;
+  }
+
+  .vanadium-advice.vanadium-invalid, .vanadium-advice.vanadium-invalid * {
+    color: red;
+    margin-left: 0px;
+  }
+
+  #reg_box{
+    text-align: left
+  }
+  #reg_box span,.form-data span{
+    margin-left:3px;
+  } 
+
+
+  .mayuscula{  
+  text-transform: uppercase;  
+  } 
+  .botonL{
+    margin-top: 20px;
+    text-align: center;
+
+  }
+
+  .opciones{
+    background: #f7f7f7;
+    border-bottom: 1px solid #c4c4c4;
+    border-top: 1px solid #c4c4c4;
+    cursor: pointer;
+    color: #47545d;
+    margin-top: 50px;
+    position: relative;
+    min-height: 30px;
+    text-align: left;
+
+  }
+
+  .opciones h3 {
+    font-weight: normal;
+    margin-right: 200px;
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 50px;
+    margin-top: 15px;
+    text-transform: uppercase;
+  }
