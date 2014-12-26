@@ -11,10 +11,7 @@
 		
 		function __construct()
 		{
-			/*$this->server="ujcm.edu.pe";
-			$this->user="ujcm_bienestar";
-			$this->clave="0bubienestar";
-			$this->db="ujcm_bienestar";*/
+		
 
 			$this->server="localhost";
 			$this->user="root";
